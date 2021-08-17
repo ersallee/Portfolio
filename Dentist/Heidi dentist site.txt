@@ -1,0 +1,18 @@
+Heidi's denstist's site
+
+Informational site regarding dental office
+
+Start page
+About
+Contact
+-Contact page include email section
+Possibly image page
+
+Build initial page structure before deciding on color scheme
+Site should be static and basic
+
+Responsive and mobile first
+
+Hand code it to relearn HTML/CSS
+
+Create image for jumbotron section

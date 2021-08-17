@@ -1,0 +1,240 @@
+/*CSS Mobile First*/
+/*Fonts: Oswald*/
+
+.container {
+	margin: 0 auto;
+	padding: 0 5%;
+	max-width: 940px;
+}
+
+h1 {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	color: #FFF;
+	font-family: 'Oswald', sans-serif;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+	color: #FFF;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1em;
+}
+
+.main {
+	background: #444;
+	border: 1px solid #888;
+	margin-top: 1.2em;
+}
+
+/*****************************
+Colors
+*****************************/
+
+body {
+	background: #212121;
+}
+
+/*****************************
+Top Logo
+*****************************/
+
+.logo img{
+	max-width: 100%;
+	height: auto;
+	background-color: yellow;
+}
+
+/*****************************
+Navigation
+*****************************/
+
+.nav {
+	text-align: center;
+}
+
+.nav ul {
+    list-style-type: none;
+	background-color: #444;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    font-size: 1.2em;
+	line-height: 40px;
+	border-bottom: 1px solid #888;
+	display: block;
+	margin-right: -4px;
+}
+
+.nav a {
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	transition: .3s background-color;
+}
+
+.nav a:hover {
+	background-color: #33CCCC;
+}
+
+.nav a.active {
+	background-color: #fff;
+	color: #444;
+	cursor: default;
+}
+
+
+
+body.home a.home, body.about a.about, body.contact a.contact, body.office a.office {
+
+background-color: #33CCCC;
+
+}
+
+/**********************************
+Page: Home
+**********************************/
+
+ul li {
+	margin: 0;
+	padding: 0;
+	color: #FFF;
+	font-family: 'Oswald', sans-serif;
+}
+
+/**********************************
+Page: Contacts
+**********************************/
+
+input[type=text], input[type=url], input[type=email], input[type=password], input[type=tel] {
+  -webkit-appearance: none; -moz-appearance: none;
+  display: block;
+  margin: 0;
+  width: 100%; height: 40px;
+  line-height: 40px; font-size: 17px;
+  border: 1px solid #bbb;
+}
+
+input[type=text] {
+	padding: 5px;
+	border:2px solid #ccc;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+input[type=text]:focus {
+	border-color: #333;
+}
+
+input[type=submit] {
+	margin: 5px;
+	padding: 5px 15px;
+	background: #ccc;
+	border: 0 none;
+	cursor: pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+/* unstyled tel links as default */
+a[href^='tel:']:link, a[href^='tel:']:visited {
+ color: #FFF;
+ font-weight: normal;
+  text-decoration: none;
+}
+a[href^='tel:']:hover, a[href^='tel:']:active {
+  color: #FFF;
+  text-decoration: none;
+}
+
+/* styled tel links for small viewports */
+@media screen and (max-width: 600px) {
+  a[href^='tel:']:link, a[href^='tel:']:visited {
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  a[href^='tel:']:hover, a[href^='tel:']:active {
+    color: #FFF;
+    text-decoration: none;
+  }
+}
+
+.maps {
+	position: relative;
+	padding-bottom: 75%;
+	height: 0;
+	overflow: hidden;
+}
+
+.maps iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/**********************************
+Page: Office
+**********************************/
+
+.thumbnails img {
+	height: 80px;
+	border: 4px solid #555;
+	padding: 1px;
+	margin: 0 10px 10px 0;
+}
+
+.thumbnails img:hover {
+	border: 4px solid #00ccff;
+	cursor:pointer;
+}
+
+.preview img {
+	border: 4px solid #444;
+	padding: 1px;
+	width: 80%;
+}
+
+/**********************************
+Footer
+**********************************/
+
+.footer {
+	text-align: center;
+	background-color: #444;
+	margin: 0;
+	padding: 0;
+	font-size: .7em;
+}
+
+/**********************************
+@media queries
+**********************************/
+
+
+@media screen and (max-width: 481px) {
+  .logo {
+	display: none;
+  }
+}
+
+
+@media screen and (min-width: 600px) {
+	.nav li {
+		width: 120px;
+		border-bottom: none;
+		height: 50px;
+		line-height: 50px;
+		font-size: 1.4em;
+		display: inline-block;
+	}
+}
+

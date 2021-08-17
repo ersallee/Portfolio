@@ -1,0 +1,208 @@
+/*********************************
+CSS for Profile and Resume website
+**********************************/
+
+/*****************************
+GENERAL
+*****************************/
+
+#wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+
+/*****************************
+Header
+*****************************/
+
+header {
+	float: left;
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+}
+
+#logo {
+	color: #fff;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-family: 'Oswald', sans-serif;
+	margin: 15px 0;
+	font-size: 1.75em;
+	font-weight: normal;
+	line-height: 0.8em;
+}
+
+h2 {
+	font-size: 1em;
+	margin: 0 0 15px;
+	font-weight: normal;
+}
+
+/*****************************
+NAVIGATION
+*****************************/
+
+nav {
+	text-align: center;
+	padding: .5em;
+	margin: 0;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	font-weight: 700;
+	padding: 15px 15px;
+}
+
+/*****************************
+Portfolio: Text
+*****************************/
+
+#intro {
+	margin: 0;
+	padding: 5px 22px;
+}
+
+#intro.h2 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+}
+
+#intro.p {
+	font-family: 'Lora', serif;
+	font-weight: 400;
+}
+
+/*****************************
+Portfolio: Links
+*****************************/
+
+#links {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#links li {
+	float: left;
+	width: 45%;
+	margin: 2.5%;
+	background-color: black;
+	color: #BDC3C7;
+}
+
+#links li a p {
+	margin: 0;
+	padding: 5%;
+	font-size: 0.75em;
+	color: #BDC3C7;
+}
+
+/*****************************
+ABOUT
+*****************************/
+
+#about {
+	text-align: center;
+}
+
+/*****************************
+CONTACT
+*****************************/
+
+#contact {
+	text-align: center;
+}
+
+/*****************************
+FOOTER
+*****************************/
+
+footer {
+	font-size: 0.75em;
+	clear: both;
+	text-align: center;
+	padding-top: 50px;
+	color: 181818;
+}
+
+.social-icon {
+	width: 20px;
+	height: 20px;
+	margin: 0 5px;
+}
+
+/*****************************
+COLORS
+*****************************/
+
+/*Site Body*/
+body {
+	background-color: #F0F0F0;
+}
+
+header {
+	background-color: #181818;
+}
+
+/*Navigation*/
+nav {
+	background-color: #464646;
+}
+
+nav a, nav a:visited {
+	color: #fff;
+}
+
+/*selected nav*/
+nav a.selected {
+	background-color: #F0F0F0;
+	color: #181818;
+	border: 0 1px 1px 0 solid #000000;
+}
+
+/*mouse over nav*/
+nav a:hover {
+	background-color: #F0F0F0;
+	color: black;
+}
+
+/*unvisited*/
+a:link {
+}
+
+/*visited*/
+a:visited {
+}
+
+
+
+
+/**************
+@media queries
+**************/
